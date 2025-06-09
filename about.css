@@ -1,0 +1,96 @@
+/* -----------------About Us Styles------- */
+/* hero section */
+.about-hero {
+  width: 100%;
+  padding: 2vw 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 2.5px rgba(255, 255, 255, 0.05);
+  margin: 0 0 20px;
+}
+.about-hero h2 {
+  font-size: 3rem;
+  color: white;
+  margin: 15px 0;
+}
+.hero-link a {
+  transition: all 0.3s ease-out;
+}
+.hero-link a:hover {
+  color: #a8691f;
+}
+#about-link {
+  color: #a8691f;
+}
+
+/* --------------slider section---------------------- */
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #000000d2;
+  background-size: cover;
+}
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 20px 15px;
+  padding: 10px 5px;
+}
+.card-list .card-item {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.02);
+  padding: 30px;
+  border-radius: 8px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(30px);
+  margin: 0 1px;
+  min-height:575px;
+}
+.card-list .card-item .team-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  border: 3px solid white;
+  padding: 4px;
+}
+.card-list .card-item .member-opinion {
+  font-size: 1.15rem;
+  color: #e3e3e3;
+  font-weight: 500;
+  margin: 14px 0 40px;
+  text-align: center;
+  line-height: 1.8rem;
+}
+.card-list .card-item .message-btn {
+  font-size: 1.2rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+  background-color: #262626;
+  padding: 8px 10px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-out;
+}
+.card-list .card-item .message-btn:hover {
+  border: 2px solid #a8691f;
+  background: transparent;
+  color: #a8691f;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: white;
+  background-color: #313131a9;
+  padding: 25px;
+  color: #fff !important;
+}

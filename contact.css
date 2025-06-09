@@ -1,0 +1,71 @@
+/* ----------Contact hero section---------------- */
+
+.contact-hero {
+  width: 100%;
+  padding: 2vw 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;box-shadow:0 0 2.5px rgba(255, 255, 255, 0.05);
+}
+.contact-hero h2 {
+  font-size: 3rem;
+  color: white;
+  margin: 15px 0;
+}
+.hero-link a {
+  transition: all 0.3s ease-out;
+}
+.hero-link a:hover {
+  color: #a8691f;
+}
+#contact-link {
+  color: #a8691f;
+}
+
+/* -----------Map section------------------- */
+.location-map {
+  padding: 1.5vw 0;
+}
+
+/* --------Form section----------------------- */
+form {
+  box-shadow:0 0 2.5px rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  width: 100%;
+}
+form .label{
+    color: #A6AFA2 ;
+  display: block;
+}
+form .input {
+  display: block;
+  border: none;
+  width: 100%;
+  outline: none;
+  padding: 8px 10px;
+  font-size: 0.8rem;
+  width: 100%;
+  background-color: #333333;
+  color: #a6afa2;
+  border: 2px solid transparent;
+  margin: 8px 0;
+}
+form h2 {
+  font-size: 1.5rem;
+  color: white;
+  margin: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+form button{
+    color: white;
+    padding: 8px 10px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    background-color: #a8691f;
+    transition: all 0.3s ease-out;
+}
+form button:hover{
+    color:#a8691f;
+    border: 2px solid #a8691f;
+    background-color: transparent;
+}
